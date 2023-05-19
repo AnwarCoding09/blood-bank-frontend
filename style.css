@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUTITEhJSkrOjo6Fx8/ODMtNyg5LjcBCgoKDQ0NFQ0PDy0ZFRkrKy0rLSsrKysrLSsrKys3Ky0rKzctLS0tKy0rKzcrLS03LTctLSstNy0rLS0tLS0rLf/AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBAf/xAAYEAEBAQEBAAAAAAAAAAAAAAAAARESAv/EABgBAQEBAQEAAAAAAAAAAAAAAAEAAgYF/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBEgL/2gAMAwEAAhEDEQA/APnfmOkg8xuOgzHgbpjUEajTGqFQxpnSkSyikkiiQCigkUgkUUCigCkEkUgkUjRiIBqxWIjWs1mxmt1miNZrFjFdKzYzGq53ymyzGnkkaikakbW6pGooSwoUWhqKJZSKQWFFIHCiEiUKEUgkUkDhSARxJJYUkMDSBZxUiogY0sBxjGbHSs1mN1zTWIRp5pGpBGpDmLdWNKQtM1QowgHCkEcWHCKsWHDiFGFYcIoJxILFhWJAlIBFJJJJJFJBEA0BrAlRiqxAis2Ns2BqsJvEI08sjUUhJ3UVI0WRhw4SBhw4cQEOHDCKFhKAwnDhFZw4cOIVnDhwpVnE0kGVjSSZxY0kgikmUUCBjSxFkY3gwFnBY3iwNOaawJV5mpBGk0jFCQpDIoSEUUysKkOEI4jiFBwnCAsaxYhRixrFiVZxY1gxCjFhSNZTSSZJQQwNYsRGDGsWAsrGsWIs4Maw2BvGMTWIF44YCUYUSEYjEyijCFCjEEUSFI1IjEypDhhxJnFjWJJnBjWJBnA0EgikQsaSQRwhoYGog0KMKBwRYiNbxjCUE8MMRbChUMQUagJZTQhIJBiBMUKZMMDUQMawQpLAQkBSCECkgikQUgUokDhFIDVWBBKpDRojWadiZQh6eWNCGNLTDFCQjFCmUUiDClEDDESE0CmTCEkUEkkkggUiEQkkkkkkCgkGkEEkKgGggUnCNQRotIqGFlFYcQRRwgGIoKFFBGIkJIoJJJJJBBFYkEQiEUkEQiERgIFIqTINAOBJBpzjUikakaWrDikOEVYcUjUiZrOHGpDiFZkONSHCKzixrFiFGHDhxCs4caxSJDFjWKRFnFjeLkKMYsb5XKMYwY6YsSjnixuxYg54sdORyi54sb5WAudjOOtjNiTlYLHSxiwHNYTWJNMSNyDy3IRuiRqQyNSNM1mRqRqeW55SYnkzy6crkKMTyeXTk8qqOXK5duVyqN8uOHl04PJEc55XLryZ5FMc+TPLrPKnkNRz5XLryeVTHHlcu3K5VMceVy7crkVRw4XLtyuTRy4crl2vkcpRx5F8u18jkKON8s3y7WMYRuONjFjvY52IOWJvEi4+XTyksXp08xqQostTy3IkG8a5M8pAtTyZEkWp5XKSMXK5STMPJ5SRhnlYkkcOJBpcrEkVysSQXI5CSV8jlJAcs3ykkzY5+oUmdc7HOwosa56kiX//2Q==);
+    background-size: cover;
+    background-position: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: red;
+}
+/* heder*/
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.container{
+    width: 1100px;
+    position: relative;
+    top: 61px;
+}
+h1{
+    color: red;
+}
+h2{
+    color: white;
+}
+.row{
+    top: 40px;
+}
+.b1{
+    border: 1px;
+    border-radius: 22px;
+    margin: 27px
+}
+h4{
+    text-align: center;
+}
+footer{
+    bottom: -106px;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    color: #000;
+    margin: 0px 0px -190px;
+}
+/*.action_btn{
+    background-color: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}*/
